@@ -2,6 +2,8 @@ Rails.application.routes.draw do
   root 'home#index'
  
   get 'home/index'
+  
+  get 'introduction' => 'home#introduction'
 
   get 'event1' => 'home#event1'
 
